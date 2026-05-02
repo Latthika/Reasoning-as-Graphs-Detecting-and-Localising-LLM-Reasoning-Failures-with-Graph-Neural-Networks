@@ -1,0 +1,30 @@
+# Reasoning-as-Graphs — Python dependencies
+# Install with: pip install -r requirements.txt
+# Requires Python 3.10 and PyTorch installed via conda first:
+#   conda install pytorch cpuonly -c pytorch -y
+
+# Data handling
+pandas>=1.5.0
+numpy>=1.23.0
+
+# HuggingFace dataset loading (Stage 1)
+datasets>=2.0.0
+
+# LLM API client (Stage 1)
+groq>=0.4.0
+
+# Sentence embeddings (Stage 3)
+sentence-transformers>=2.7.0
+
+# Graph neural networks (Stages 4, 5, 6, 7)
+torch-geometric>=2.3.0
+
+# Evaluation metrics (Stage 5, 6)
+scikit-learn>=1.2.0
+
+# Visualisation (Stage 6, 7)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
