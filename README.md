@@ -138,7 +138,7 @@ reasoning-as-graphs/
 ├── data/
 │   └── .gitkeep   (generated files excluded — too large for GitHub)
 └── paper/
-    └── reasoning_as_graphs.pdf   (rebuild from paper/main.tex if present)
+    └── reasoning_as_graphs.pdf  
 ```
 
 The `data/` folder is empty in the repo. Run Stage 1 to regenerate `gsm8k_with_traces.csv`, then Stages 2–7 to regenerate everything downstream.
@@ -167,25 +167,9 @@ Both trained with focal loss (per-class α = 0.75 on the wrong class, γ = 2.0),
 
 ---
 
-## Citation
-
-```bibtex
-@article{selvamurugan2026reasoning,
-  title  = {Reasoning-as-Graphs: A Graph Neural Network Approach to
-            Detecting and Explaining LLM Reasoning Failures},
-  author = {Selvamurugan, Latthika and Kathirvel, Abhirami},
-  journal= {Machine Learning with Graphs, Rice University},
-  year   = {2026}
-}
-```
-
----
-
 ## Acknowledgements
 
 Supervised by Prof. Arlei Lopes da Silva, Rice University.
 LLM inference via Groq free tier. Dataset: GSM8K (Cobbe et al.).
 
-## License
 
-MIT.
