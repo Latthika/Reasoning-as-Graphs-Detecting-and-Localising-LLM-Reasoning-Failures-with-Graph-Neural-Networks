@@ -1,6 +1,4 @@
-# Reasoning-as-Graphs
-
-**Reasoning-as-Graphs: A Graph Neural Network Pipeline for Detecting and Localising LLM Reasoning Failures**
+# Reasoning-as-Graphs: A Graph Neural Network Pipeline for Detecting and Localising LLM Reasoning Failures
 
 > Course project — Machine Learning with Graphs | Spring 2026 | Rice University
 > Authors: Latthika Selvamurugan, Abhirami Kathirvel
